@@ -2,7 +2,7 @@
 node_modules
 
 # local builds
-.dist/**
+dist/**
 
 # csv files
 # (I'm keeping AccessKey and SecretKey information in current repository for development purposes)
