@@ -3,3 +3,8 @@ node_modules
 
 # builds
 .dist
+
+# csv files
+# (I'm keeping AccessKey and SecretKey information in current repository for development purposes)
+# This is only to avoid tracking that file
+*.csv
