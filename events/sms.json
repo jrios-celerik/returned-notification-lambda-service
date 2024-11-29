@@ -1,0 +1,6 @@
+{
+  "countryCode": "+57",
+  "message": "An example sms message.",
+  "phoneNumber": "3003000000",
+  "type": "sms"
+}

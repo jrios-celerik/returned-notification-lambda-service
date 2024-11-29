@@ -1,0 +1,6 @@
+{
+  "address": "email@domain.com",
+  "message": "An example email message.",
+  "subject": "An example email subject.",
+  "type": "email"
+}
