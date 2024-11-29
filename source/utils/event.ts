@@ -17,7 +17,7 @@ export type HandlerResponse = {
   statusCode: StatusCode;
 } | string;
 
-export const isAPIGatewayEvent = <T>(event: APIGatewayProxyEvent | Notification): event is APIGatewayProxyEvent => {
+export const isAPIGatewayEvent = (event: APIGatewayProxyEvent | Notification): event is APIGatewayProxyEvent => {
   return event && typeof event === 'object' && 'httpMethod' in event && 'headers' in event && 'body' in event;
 }
 
