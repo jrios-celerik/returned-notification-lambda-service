@@ -1,0 +1,32 @@
+{
+  "name": "returned-notification-lambda-service",
+  "version": "0.0.1",
+  "description": "Notification Service written in TypeScript with a serverless architecture within Lambda Functions in AWS",
+  "main": "./source/index.ts",
+  "scripts": {
+    "build": "tsc -p ./",
+    "start": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrios-celerik/returned-notification-lambda-service.git"
+  },
+  "keywords": [
+    "AWS",
+    "TypeScript",
+    "Serverless",
+    "Lambda",
+    "Function"
+  ],
+  "author": "Jorius",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jrios-celerik/returned-notification-lambda-service/issues"
+  },
+  "homepage": "https://github.com/jrios-celerik/returned-notification-lambda-service#readme",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
